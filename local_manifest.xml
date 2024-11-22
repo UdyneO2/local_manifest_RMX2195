@@ -3,17 +3,18 @@
     
     <remote name="lineageos"
         fetch="https://github.com/LineageOS/" revision="lineage-21" />
+    <remote name="UdyneO2" fetch="https://github.com/UdyneO2" clone-depth="1" />
     
     <!-- Device Trees -->
-    <remote path="device/realme/RMX2195" name="device_RMX2195"
+    <project path="device/realme/RMX2195" name="device_RMX2195"
         remote="UdyneO2"/>
         
     <!-- Kernel Trees -->
-    <remote path="kernel/realme/RMX2195" name="kernel_RMX2195"
+    <project path="kernel/realme/RMX2195" name="kernel_RMX2195"
         remote="UdyneO2"/>
     
     <!-- Vendor Trees -->
-    <remote path="vendor/realme/RMX2195" name="proprietary_RMX2195"
+    <project path="vendor/realme/RMX2195" name="proprietary_RMX2195"
         remote="UdyneO2"/>
   
     <!-- Supporting Repos -->
