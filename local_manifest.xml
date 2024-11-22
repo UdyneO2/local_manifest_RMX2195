@@ -5,18 +5,18 @@
         fetch="https://github.com/LineageOS/" revision="lineage-21" />
     
     <!-- Device Trees -->
-    <project path="device/realme/RMX2195" name="device_RMX2195"
+    <remote path="device/realme/RMX2195" name="device_RMX2195"
         remote="UdyneO2"/>
         
     <!-- Kernel Trees -->
-    <project path="kernel/realme/RMX2195" name="kernel_RMX2195"
+    <remote path="kernel/realme/RMX2195" name="kernel_RMX2195"
         remote="UdyneO2"/>
     
     <!-- Vendor Trees -->
-    <project path="vendor/realme/RMX2195" name="proprietary_RMX2195"
+    <remote path="vendor/realme/RMX2195" name="proprietary_RMX2195"
         remote="UdyneO2"/>
   
     <!-- Supporting Repos -->
     
-    <project path="system/qcom" name="android_system_qcom" remote="lineageos" revision="lineage-21"/>
+    <remote path="system/qcom" name="android_system_qcom" remote="lineageos" revision="lineage-21"/>
 </manifest>
