@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    
+    <remote name="lineageos"
+        fetch="https://github.com/LineageOS/" revision="lineage-21" />
+    
     <!-- Device Trees -->
     <project path="device/realme/RMX2195" name="device_RMX2195"
         remote="UdyneO2"/>
