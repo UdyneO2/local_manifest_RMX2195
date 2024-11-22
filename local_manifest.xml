@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     
-    <remote name="lineageos"
-        fetch="https://github.com/LineageOS/" revision="lineage-21" />
-    <remote name="UdyneO2" fetch="https://github.com/UdyneO2" clone-depth="1" />
+   <remote name="UdyneO2" 
+        fetch="https://github.com/UdyneO2" clone-depth="1" />
     
     <!-- Device Trees -->
     <project path="device/realme/RMX2195" name="device_RMX2195"
@@ -17,7 +16,4 @@
     <project path="vendor/realme/RMX2195" name="proprietary_RMX2195"
         remote="UdyneO2"/>
   
-    <!-- Supporting Repos -->
-    
-    <remote path="system/qcom" name="android_system_qcom" remote="lineageos" revision="lineage-21"/>
 </manifest>
