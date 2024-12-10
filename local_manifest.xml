@@ -2,22 +2,21 @@
 <manifest>
     
    <remote name="ud1" 
-        fetch="https://github.com/UdyneO2"
-        revision="main"/>
+        fetch="https://github.com/UdyneO2"/>
 
    <remote name="github"
         fetch="https://github.com"/>
     
     <!-- Device Trees -->
     <project path="device/realme/RMX2195" name="device_realme_rmx2195"
-        remote="ud1"/>
+        remote="ud1" revision="main"/>
         
     <!-- Kernel Trees -->
     <project path="kernel/realme/RMX2195" name="kernel_realme_rmx2195"
-        remote="ud1"/>
+        remote="ud1" revision="main"/>
     
     <!-- Vendor Trees -->
     <project path="vendor/realme/RMX2195" name="vendor_realme_rmx2195"
-        remote="ud1"/>
+        remote="ud1" revision="main"/>
   
 </manifest>
