@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     
-   <remote name="UdyneO2" 
-        fetch="https://github.com/UdyneO2" clone-depth="1" />
+   <remote name="ud1" 
+        fetch="https://github.com/UdyneO2"
+        revision="main"/>
+
+   <remote name="github"
+        fetch="https://github.com"/>
     
     <!-- Device Trees -->
-    <project path="device/realme/RMX2195" name="device_RMX2195"
-        remote="UdyneO2"/>
+    <project path="device/realme/RMX2195" name="device_realme_rmx2195"
+        remote="ud1"/>
         
     <!-- Kernel Trees -->
-    <project path="kernel/realme/RMX2195" name="kernel_RMX2195"
-        remote="UdyneO2"/>
+    <project path="kernel/realme/RMX2195" name="kernel_realme_rmx2195"
+        remote="ud1"/>
     
     <!-- Vendor Trees -->
-    <project path="vendor/realme/RMX2195" name="proprietary_RMX2195"
-        remote="UdyneO2"/>
+    <project path="vendor/realme/RMX2195" name="vendor_realme_rmx2195"
+        remote="ud1"/>
   
 </manifest>
